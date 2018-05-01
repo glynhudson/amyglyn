@@ -11,27 +11,25 @@
 
 <body>
 
-	<?php include 'buttons.php';?>
-	
-	<header>
-	Amy and Glyn 10 year party & wedding celebrations &#127881;
-	<br>
-	<b>Party info: Saturday night 5th May</b>
-	
-	</header>
-	
-	
+
+<?php include 'buttons.php';?>
+
+<header>
+Amy and Glyn 10 year party & wedding celebrations &#127881;
+<br>
+<b>Saturday Schedule</b>
+</header>
+<br>
+
+<img src="mabonpano.jpg" alt="Cae Mabon">
+
 	<style>iframe{width: 1px;min-width: 100%;}</style>
-	<iframe id="myIframe" src="gdoc2.php" scrolling="no">Loading...</iframe>
+	<iframe id="myIframe" src="schedule-gdoc.php" scrolling="no">Loading...</iframe>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script type="text/javascript" src="../js/iframeResizer.min.js"></script> 
 	<script>iFrameResize({log:false}, '#myIframe')</script>
-		
-	<!--<div class=non-floater>-->
-	<!--	<iframe height="6500" scrolling="no" src='gdoc2.php'>Loading...</iframe>-->
-	<!--</div>	-->
 	
-	<?php include 'footer.php';?>
+<?php include 'footer.php';?>
 
 </body>
 </html>

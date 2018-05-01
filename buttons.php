@@ -6,6 +6,7 @@
 
 <a href="/weekend.php" class="fa button">Weekend</a>
 <a href="/party.php" class="fa button">Party</a>
+<a href="/schedule.php" class="fa button">Schedule</a>
 
 <button class="fa button" type="submit" form="donate" value="Submit">Contribute <i class="fa fa-external-link" style="font-size:23px"></i></button>
 
